@@ -1,3 +1,5 @@
+#제어문 배운 날. 근데 입력 이거 교수님은 다르게 받던디;
+#그리고 5개씩 출력하는거 어케하는지 모르겠음 ㅅㅂ
 s = int(input('start > '))
 e = int(input('end > '))
 n = int(input('sum > '))
