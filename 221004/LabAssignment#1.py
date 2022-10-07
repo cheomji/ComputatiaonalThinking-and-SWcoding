@@ -1,3 +1,4 @@
+#오목 결과 판정하는 프로그램
 fin = open('baduk.txt', 'r')
 baduk = []
 while True:
