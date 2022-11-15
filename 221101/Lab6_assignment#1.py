@@ -34,6 +34,10 @@ for i in range(3):
     line = [int(item) for item in input().split()]
     column.append(line)
     max += len(line)
+    
+#for i in range(3):
+#    column.append(list(map(int, input().split())))
+# 이런식으로 입력받는ㄱㅔ 더 간단할듯ㅅ. map이랑 list자료변환하는거 사용하기    
 
 hanoi(max, 3)
 print(cnt)
