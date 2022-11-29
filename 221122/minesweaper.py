@@ -14,7 +14,7 @@ def installMines(x, y, n):
 	'''
 	
     
-    temp = [".." for i in range(x)]
+    temp = ["🔲" for i in range(x)]
     graphic = [temp[:] for i in range(y)]
 
     tmp = [0 for _ in range(x)]
@@ -66,7 +66,7 @@ def findzero(x, y):
                 graphic[y][x] = img[mine[y][x]]
             return
         
-        graphic[y][x] = '🔲'
+        graphic[y][x] = img[0]
         findzero(x-1, y-1)
         findzero(x-1, y)
         findzero(x-1, y+1)
